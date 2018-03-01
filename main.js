@@ -15,6 +15,9 @@ app.on('ready', async () => {
   // Create the browser main window
   mainWindow = new BrowserWindow({
     show: false,
+    webPreferences: {
+      nodeIntegration: false
+    }
   });
   if (environment === 'DEVELOPMENT') {
     // Start the parcel process to launch the development server
