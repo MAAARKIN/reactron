@@ -1,6 +1,6 @@
 ### Reactron
 
-_sidenode: still working on a cool logo_
+_sidenote: still working on a cool logo_
 
 **What is Reactron?**
 
@@ -19,7 +19,7 @@ It's quite simple, just do the following:
 3. `yarn start`
 4. Develop you application
 5. `yarn run parcel-production`
-6. `yarn run package`
+6. `yarn run pack`
 
 **Development**
 
